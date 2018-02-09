@@ -1,0 +1,12 @@
+<web-app><display-name>Archetype Created Web Application</display-name><servlet><servlet-name>MavenServlet</servlet-name><display-name>MavenServlet</display-name><description/><servlet-class>MavenServlet</servlet-class></servlet><servlet><servlet-name>Servlet</servlet-name><display-name>Servlet</display-name><description/><servlet-class>Servlet</servlet-class></servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>HelloServlet</display-name>
+	<servlet-name>HelloServlet</servlet-name>
+	<servlet-class>HelloServlet</servlet-class>
+</servlet><servlet-mapping><servlet-name>MavenServlet</servlet-name><url-pattern>/MavenServlet</url-pattern></servlet-mapping><servlet-mapping><servlet-name>Servlet</servlet-name><url-pattern>/Servlet</url-pattern></servlet-mapping>
+<servlet-mapping>
+	<servlet-name>HelloServlet</servlet-name>
+	<url-pattern>/HelloServlet</url-pattern>
+</servlet-mapping></web-app>
